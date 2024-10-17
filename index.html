@@ -1,0 +1,168 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudStore - Simple File Storage</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #0061ff;
+            color: white;
+            padding: 20px 0; /* Updated padding */
+            min-height: 40px;
+            border-bottom: #e8e8e8 3px solid;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Updated container style */
+
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header nav {
+            float: right; /* Updated nav style */
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        header nav ul li {
+            display: inline-block;
+            margin-left: 20px; /* Removed margin-top */
+        }
+        header .highlight, header .current a {
+            color: #e8e8e8;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff93;
+         
+        }
+        .hero {
+            min-height: 400px;
+            background: url('/placeholder.svg?height=400&width=800') no-repeat center center/cover;
+            text-align: center;
+            color: #ffffff;
+        }
+        .hero h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            font-size: 18px;
+            color: #ffffff;
+            background: #0061ff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #0056e0;
+        }
+        .faq {
+            padding: 0px 0;
+      
+          
+        }
+        .faq h2 {
+            text-align: center;
+        }
+        .faq-item {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .faq-item h3 {
+            margin-top: 0;
+        }
+        footer {
+          position: fixed; /* Make the footer fixed */
+            left: 0; /* Align to the left */
+            right: 0; /* Align to the right */
+            bottom: 0; /* Stick to the bottom */
+            padding: 20px;
+            background: #2222;
+            color: #222;
+            text-align: center;
+        }
+        p{
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Dropbox For Scooter</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://help.dropbox.com/organize/file-names" style="font-size: 12px;">Naming Conventions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>Why cant I access the shared link after clicking?</h3>
+                <p>You need to make sure your login to Dropbox via the browser. Otherwise is shows you the default view, which you can comment on the create.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Does it use up alot of space on my computer?</h3>
+                <p>Not really. You just need to make sure your folders/files are 'Make Online-Only' after you finsihed using them.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I share files with others?</h3>
+                <p>Yes, you can easily share files or folders with others by generating a share link or inviting them directly.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do people see my files?</h3>
+                <p>The folder with your name on it, is your personal folder. No one can access or see, unless you want to share files with them.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span style="color: #0061ff;">Need help?</span> Contact richard@wearescooter.com.au
+    </footer>
+</body>
+</html>
